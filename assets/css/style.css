@@ -1,0 +1,390 @@
+/* Styles */
+#colorsAndFonts {
+    background-color: #141922;
+    background-color: #1B202A;
+    background-color: #272a34;
+    background-color: #2c333c;
+    color: #A9B5CC;
+    color: #ffffff;
+    background-color: #46C351;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    color: #A9B5CC !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    list-style-type: none !important;
+}
+
+.weightLetter {
+    font-weight: 700;
+}
+
+/* Layouts  */
+body {
+    margin: 0;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* Header */
+.headerAndFooter {
+    padding: 1em 0;
+    background-color: #141922;
+    margin: 0;
+}
+
+.navbarContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.titleContainer:hover {
+    cursor: pointer;
+}
+
+.navbarTitle1 {
+    font-size: 35.86px;
+    font-weight: 700;
+    margin: 0;
+} 
+
+.navbarTitle2 {
+    font-size: 35.86px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 3em;
+    width: 100%;
+}
+
+.navbar li {
+    font-size: 15px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-right: 3em;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {    
+    color: #46C351 !important;
+    transition: 0.5s;
+}
+
+.navbar img {
+    float: left;
+    height: auto;
+    margin: 0 0.25em 0 0;
+    width: 20px;
+}
+
+.positionCart {
+    position: absolute;
+    right: -3.5%;
+}
+
+.iconCart {
+    height: auto;
+    width: 25px !important;
+}
+
+/* Main content */
+.mainContent {
+    background-color: #1B202A;
+    min-height: 100vh;
+}
+
+ .detailsContainer {
+    background-color: #2c333c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-height: 300px !important;
+    padding: 1em;    
+    max-width: 300px !important;
+    width: fit-content;
+}
+
+.detailsContainer p {
+    margin: 0 0 0.5em 0;
+}
+
+.titleContainer {
+    display: flex;
+}
+
+.textContainer {    
+    max-width: 300px;
+}
+
+.detailsContainerTitle1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.detailsContainerTitle2 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.purchaseContainer {
+    align-items: center;
+    background-color: #272a34;
+    border: 2px solid #141922;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.priceContainer {
+    text-align: center;
+}
+
+.priceContainer h2 {
+    font-weight: 700;
+    margin: 0 0.5em 0 0;
+    size: 10px !important;    
+    text-align: center;    
+}
+
+.priceContainer h6 {
+    size: 13px;
+    font-weight: 400;
+    margin: 0;
+    max-width: 200px;
+    width: fit-content;
+}
+
+.purchaseBtn, .checkoutBtn {
+    background-color: #46C351;
+    border-radius: 5px;
+    border: 0;
+    color:#ffffff !important;
+    padding: 0.25em 0.5em;
+    width: fit-content;
+    height: fit-content;
+    border: 2.5px solid #46C351;
+}
+
+.purchaseBtn:hover, .checkoutBtn:hover {
+    background-color: #141922;
+    color: #46C351  !important;
+    cursor: pointer;
+    transition: 0.5s;
+} 
+
+/* Enjoy container */
+.enjoyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+    width: 100%;
+}
+
+.enjoyIcons {
+    width: 75px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+.enjoyContainer figure {
+    width: fit-content;
+    text-align: center;
+}
+
+.smallEnjoyContainer {
+    background-color: #262a35;
+    border: 2px solid #262a35;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1em 3em;
+    width: fit-content;
+}
+
+.arrow:hover, .enjoyIcons:hover, .smallEnjoyContainer:hover {
+    cursor: pointer;
+}
+
+.smallEnjoyContainer:hover {   
+    background-color: #141922; 
+    border: 2px solid #46C351;
+    transition: 1s;
+}
+
+.smallEnjoyContainer:hover > * {    
+    color:#46C351 !important;
+    transition: 1s;
+}
+
+.enjoyBig {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.enjoySmall {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Pfl */
+.pflContainer {
+    max-width: 700px;
+    margin-bottom: 5em;
+}
+
+.pflTitle {
+    display: flex;
+    font-size: 20px;
+}
+
+.hr {
+    height: 1px;
+    width: 70%;
+    background-color: #3a424e;
+}
+
+.pflContainer p {
+    font-size: 13px;
+}
+
+/* Footer */
+.footerP {
+    font-size: 12.5px;
+    font-weight: 300;
+    max-width: 348px;
+}
+
+.footerSize {
+    max-height: 294px;
+    padding: 35px 0 80px 0;
+    width: 100%;
+}
+
+@media all and (min-width: 1150px) {
+    .textContainer {
+        width: 300px;
+    }
+
+    .purchaseContainer {
+        bottom: 1em;
+        right: 1em;
+        position: absolute;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    .detailsContainer p {
+        margin: 0 0 0.5em 0;
+        font-size: 13px;
+        height: fit-content;
+    }
+    
+    .purchaseContainer {
+        padding: 0.25em;
+    }
+
+    .priceContainer h2 {
+        font-size: 15px !important; 
+        font-weight: 700;
+        margin: 0 0.5em 0 0;   
+        text-align: center;    
+    }
+    
+    .priceContainer h6 {
+        size: 13px;
+        font-size: 12px !important; 
+        font-weight: 400;
+        margin: 0;
+        max-width: 200px;
+        width: fit-content;
+    }
+    
+    .purchaseBtn {
+        background-color: #46C351;
+        border-radius: 5px;
+        border: 0;
+        color:#ffffff !important;
+        font-size: 10px;
+        margin: 0 1em;
+        padding: 0.25em 0.5em;
+        width: fit-content;
+        height: fit-content;
+        border: 2.5px solid #46C351;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .imgAndTextContainer{        
+        display: grid;
+        grid-template-columns: none !important;
+        width: 100% !important;
+    }
+    
+    .detailsContainer{
+        min-width: 100% !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .purchaseBtn {
+        font-size: 15px;
+    }
+
+    .textContainer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .positionCart {
+        position: static;
+    }
+
+    .navbar ul {    
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 0 0.5em; 
+    }
+
+    .navbar li {        
+        margin-right: 0.5em;
+        font-size: 12px !important;
+    }
+
+    .navbar img {
+        width: 13px !important;
+    }
+
+    .smallEnjoyContainer {
+        padding: 1em 2em;
+    }
+
+    .purchaseContainer {
+        padding: 0.5em 2em;
+    }
+}
