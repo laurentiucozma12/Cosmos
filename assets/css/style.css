@@ -36,6 +36,11 @@ body {
     margin: 0;
 }
 
+.headerAndFooter .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .navbarContainer {
     display: flex;
     align-items: center;
@@ -80,7 +85,7 @@ body {
     text-decoration: none;
 }
 
-.navbar a:hover {    
+.navbar a .container h6:hover {    
     color: var(--light-green) !important;
     transition: 0.5s;
 }
@@ -298,7 +303,6 @@ figcaption {
 /* Footer */
 .footerP {
     font-weight: 300;
-    max-width: 348px;
 }
 
 .footerSize {
@@ -364,9 +368,13 @@ figcaption {
     }
     
     .detailsContainer{
+        height: 500px;
         min-width: 100% !important;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .textContainer {
@@ -399,6 +407,21 @@ figcaption {
 
     .purchaseContainer {
         padding: 0.5em 2em;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .enjoyIcons {
+        width: 45px;
+    }
+
+    .smallEnjoyContainer {
+        padding: 1em;
     }
 }
 

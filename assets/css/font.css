@@ -38,3 +38,12 @@ i {
 }
 input::placeholder, textarea::placeholder {
 }
+
+@media all and (max-width: 550px) {
+    .navbarTitle1 {
+        font-size: 17pt !important;
+    }
+    .navbarTitle2 {
+        font-size: 17pt !important;
+    }
+}
