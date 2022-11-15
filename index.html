@@ -1,201 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cosmos</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- Icon -->
-    <link rel="icon" href="assets/icons/moon.png" type="image/icon type" />
-    
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
-    <link rel="stylesheet" href="assets/css/style.css" /> 
-    <link rel="stylesheet" href="assets/css/slider.css">
+<title>Cosmos</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Icon -->
+<link rel="icon" href="assets/icons/moon.png" type="image/icon type" />
 
+<!-- Font -->
+<link href="https://fonts.googleapis.com">
+<link href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- CSS only -->
+<link rel="stylesheet" href="assets/css/bootstrap-v4.0.0.css" /> 
+<link rel="stylesheet" href="assets/css/style.css" /> 
+<link rel="stylesheet" href="assets/css/font.css" /> 
 </head>
 <body>
-    <div class="gridContainer">
-        <div class="headerAndFooter"></div>
-        <div class="headerAndFooter navbarContainer">
-            <div class="titleContainer">
-                <h1 class="navbarTitle1">C</h1>
-                <h1 class="navbarTitle2">O</h1>
-                <h1 class="navbarTitle1">SM</h1>
-                <h1 class="navbarTitle2">O</h1>
-                <h1 class="navbarTitle1">S</h1>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="."><img src="assets/icons/house.png">Home</a></li>
-                    <li><a href="."><img src="assets/icons/moon.png">Destinations</a></li>
-                    <li><a href="."><img src="assets/icons/rocket2.png">Spaceships</a></li>
-                    <li class="positionCart"><a href="."><img class="iconCart" src="assets/icons/cart.png">0</a></li>
-                </ul>
-            </nav>                
-        </div>
-        <div class="headerAndFooter"></div>
-        <div class="mainContent"></div>
-        <div class="mainContent">
-            
-          <!-- Slider -->
-          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active ">
-                <div class="imgAndTextContainer">                  
-                    <ul class="imgDescription">
-                      <li class="weight">ENCELADUS</li>
-                      <li>The Saturn System</li>
-                      <li>Distance 9.5</li>
-                      <li>AUPopulation: 3,920</li>
-                    </ul>                 
-                  <img class="d-block w-100" src="assets/img/space001.jpg" alt="First slide">
-                  <div class="textContainer">                    
-                    <div class="detailsContainer">                      
-                        <div class="titleContainer">
-                          <div class="detailsContainerTitle1">E</div>
-                          <div class="detailsContainerTitle2">nceladus</div>
-                        </div>
-                        <p>is the sixth-largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>                          
-                        <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>                         
-                      <div class="purchaseContainer">
-                          <div class="priceContainer">
-                            <h2>999.990€</h2>
-                            <h6>one way ticket</h6>
-                          </div>
-                          <button class="purchaseBtn">Purchase</button>
-                      </div>
-                    </div>
+<div class="gridContainer">
+  <div class="headerAndFooter"></div>
+  <div class="headerAndFooter navbarContainer">
+      <div class="titleContainer">
+          <h1 class="navbarTitle1">C</h1>
+          <h1 class="navbarTitle2">O</h1>
+          <h1 class="navbarTitle1">SM</h1>
+          <h1 class="navbarTitle2">O</h1>
+          <h1 class="navbarTitle1">S</h1>
+      </div>
+      <nav class="navbar p-0">
+          <ul>
+              <li>
+                <a class="d-flex" href="">
+                  <div class="container d-flex align-items-center m-0 p-0">
+                    <img src="assets/icons/house.png">
                   </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="imgAndTextContainer">
-                  <ul class="imgDescription">
-                    <li class="weight">MOLTEN</li>
-                    <li>The Lava Rock System</li>
-                    <li>Distance 13.7</li>
-                    <li>AUPopulation: 1,324</li>
-                  </ul>
-                  <img class="d-block w-100" src="assets/img/space002.jpg" alt="Second slide">
-                  <div class="textContainer">                    
-                    <div class="detailsContainer">                      
-                        <div class="titleContainer">
-                          <div class="detailsContainerTitle1">M</div>
-                          <div class="detailsContainerTitle2">olten</div>
-                        </div>
-                        <p>is the first lava rock planet discovered.</p>                          
-                        <p>Explore this place full of lava.</p>                   
-                      <div class="purchaseContainer">
-                          <div class="priceContainer">
-                            <h2>1719.99€</h2>
-                            <h6>one way ticket</h6>
-                          </div>
-                          <button class="purchaseBtn">Purchase</button>
-                      </div>
-                    </div>
+                  <h6 class="m-0 p-0">Home</h6>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex" href="">
+                  <div class="container d-flex align-items-center m-0 p-0">
+                    <img src="assets/icons/moon.png">
                   </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="imgAndTextContainer">
-                  <ul class="imgDescription">
-                    <li class="weight">Azeroth</li>
-                    <li>The Onyxia System</li>
-                    <li>Distance 35.7</li>
-                    <li>AUPopulation: 19,262,543,435</li>
-                  </ul>
-                  <img class="d-block w-100" src="assets/img/space003.jpg" alt="Third slide">
-                  <div class="textContainer">                    
-                    <div class="detailsContainer">                      
-                        <div class="titleContainer">
-                          <div class="detailsContainerTitle1">A</div>
-                          <div class="detailsContainerTitle2">zeroth</div>
-                        </div>
-                        <p>is the third human planet. It is about a seven times larger than Terra.</p>                          
-                        <p>Explore this "feelsLikeHome" planet in a safe and fast trip with us.</p>                      
-                      <div class="purchaseContainer">
-                          <div class="priceContainer">
-                            <h2>1222.11€</h2>
-                            <h6>one way ticket</h6>
-                          </div>
-                          <button class="purchaseBtn">Purchase</button>
-                      </div>
-                    </div>
+                  <h6 class="m-0 p-0">Destinations</h6>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex" href="">
+                  <div class="container d-flex align-items-center m-0 p-0">
+                    <img src="assets/icons/rocket2.png">
                   </div>
-                </div>
-              </div>              
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>            
-          </div>
-
-          <!-- Enjoy Container -->
-          <div class="enjoyContainer">
-            <figure>
-              <img class="enjoyIcons" src="assets/icons/bag.png" alt="pack">
-              <figcaption><div class="weightLetter">p</div>ack</figcaption>
-            </figure>
-            <img href="#carouselExampleControls">
-              <span class="carousel-control-next-icon arrow"></span>
-
-            <figure>
-              <img class="enjoyIcons" src="assets/icons/rocket1.png" alt="rocket">
-              <figcaption><div class="weightLetter">f</div>ly</figcaption>
-            </figure>
-            <img href="#carouselExampleControls">
-            <span class="carousel-control-next-icon arrow"></span>
-            
-            <figure>
-              <img class="enjoyIcons" src="assets/icons/leaf.png" alt="rocket">
-              <figcaption><div class="weightLetter">l</div>ive</figcaption>
-            </figure>
-            <img href="#carouselExampleControls">
-            <span class="carousel-control-next-icon arrow"></span>
-
-            <div class="smallEnjoyContainer">
-              <div class="enjoyBig">ENJOY</div>
-              <div class="enjoySmall">A NEW WORLD!</div>
-            </div>
-          </div>
-
-          <!-- Pfl Package -->
-          <div class="pflContainer">
-            <div class="pflTitle"><div class="weightLetter">P</div>FL package</div>
-            <div class="hr"></div>
-            <br>
-            <div class="pflContent">
-              <p>Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. Vivamus ex ante, tristique sed elit id, scelerisque scelerisque risus. Nulla malesuada suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu purus. Sed arcu enim, rhoncus non porta eu, finibus sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. Cras velit neque, tincidunt et purus eu, semper dignissim risus. Quisque gravida interdum ipsum ac dignissim. Aenean fringilla libero leo, vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc pretium nec. Integer id facilisis nibh. In porta at tellus eget consectetur. Vestibulum nisl nunc, euismod a aliquet sit amet, fermentum in massa.</p> 
-              <p>Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi, eu euismod velit finibus et. Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet.</p>
-              <p>Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. 
-              </p>
-            </div>
-            <button class="checkoutBtn">Checkout</button>
-          </div>
-        </div>
-        <div class="mainContent"></div>
-        <div class="headerAndFooter footerSize"></div>
-        <div class="headerAndFooter footerSize">
-            <p class="footerP">Copyright Cozma Laurentiu 2022. All rights reserved.</p>
-            <p class="footerP">All data and company references are purely fictitious and shouldn’t be confused with real world entities or names.</p>
-        </div>
-  <div class="headerAndFooter footerSize"></div>
+                  <h6 class="m-0 p-0">Spaceships</h6>
+                </a>
+              </li>
+              <li class="positionCart">
+                <a class="d-flex" href="">
+                  <div class="container d-flex align-items-center m-0 p-0">
+                    <img class="iconCart" src="assets/icons/cart.png">
+                  </div>
+                  <h6 class="m-0 p-0">0</h6>
+                </a>
+              </li>
+          </ul>
+      </nav>                
   </div>
+  <div class="headerAndFooter"></div>
+  <div class="mainContent"></div>
+  <div class="mainContent">
+      
+    <!-- Slider -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <div class="imgAndTextContainer">                  
+              <ul class="imgDescription">
+                <li class="weight">ENCELADUS</li>
+                <li>The Saturn System</li>
+                <li>Distance 9.5</li>
+                <li>AUPopulation: 3,920</li>
+              </ul>                 
+            <img class="d-block w-100" src="assets/img/space001.jpg" alt="First slide">
+            <div class="textContainer">                    
+              <div class="detailsContainer">
+                <div class="container">                   
+                  <div class="titleContainer">
+                    <div class="detailsContainerTitle1">E</div>
+                    <div class="detailsContainerTitle2">nceladus</div>
+                  </div>
+                  <p>is the sixth-largest moon of Saturn. It is about a tenth of Saturn's largest moon, Titan.</p>                          
+                  <p>Explore this amazing cosmic marvel in a safe and fast trip with our aerospace company.</p>                         
+                  <div class="purchaseContainer">
+                      <div class="priceContainer">
+                        <h2>999.990€</h2>
+                        <h6>one way ticket</h6>
+                      </div>
+                      <button class="purchaseBtn">Purchase</button>
+                  </div>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="imgAndTextContainer">
+            <ul class="imgDescription">
+              <li class="weight">MOLTEN</li>
+              <li>The Lava Rock System</li>
+              <li>Distance 13.7</li>
+              <li>AUPopulation: 1,324</li>
+            </ul>
+            <img class="d-block w-100" src="assets/img/space002.jpg" alt="Second slide">
+            <div class="textContainer">                    
+              <div class="detailsContainer">    
+                <div class="container">
+                  <div class="titleContainer">
+                    <div class="detailsContainerTitle1">M</div>
+                    <div class="detailsContainerTitle2">olten</div>
+                  </div>
+                  <p>is the first lava rock planet discovered.</p>                          
+                  <p>Explore this place full of lava.</p>                   
+                  <div class="purchaseContainer">
+                      <div class="priceContainer">
+                        <h2>1719.99€</h2>
+                        <h6>one way ticket</h6>
+                      </div>
+                      <button class="purchaseBtn">Purchase</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="imgAndTextContainer">
+            <ul class="imgDescription">
+              <li class="weight">Azeroth</li>
+              <li>The Onyxia System</li>
+              <li>Distance 35.7</li>
+              <li>AUPopulation: 19,262,543,435</li>
+            </ul>
+            <img class="d-block w-100" src="assets/img/space003.jpg" alt="Third slide">
+            <div class="textContainer">                    
+              <div class="detailsContainer">  
+                <div class="container">
+                  <div class="titleContainer">
+                    <div class="detailsContainerTitle1">A</div>
+                    <div class="detailsContainerTitle2">zeroth</div>
+                  </div>
+                  <p>is the third human planet. It is about a seven times larger than Terra.</p>                          
+                  <p>Explore this "feelsLikeHome" planet in a safe and fast trip with us.</p>                      
+                  <div class="purchaseContainer">
+                      <div class="priceContainer">
+                        <h2>1222.11€</h2>
+                        <h6>one way ticket</h6>
+                      </div>
+                      <button class="purchaseBtn">Purchase</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>              
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>            
+    </div>
+
+    <!-- Enjoy Container -->
+    <div class="enjoyContainer">
+      <figure>
+        <img class="enjoyIcons" src="assets/icons/bag.png" alt="pack">
+        <figcaption><div class="weightLetter">p</div>ack</figcaption>
+      </figure>
+      <img href="#carouselExampleControls">
+        <span class="carousel-control-next-icon arrow"></span>
+
+      <figure>
+        <img class="enjoyIcons" src="assets/icons/rocket1.png" alt="rocket">
+        <figcaption><div class="weightLetter">f</div>ly</figcaption>
+      </figure>
+      <img href="#carouselExampleControls">
+      <span class="carousel-control-next-icon arrow"></span>
+      
+      <figure>
+        <img class="enjoyIcons" src="assets/icons/leaf.png" alt="rocket">
+        <figcaption><div class="weightLetter">l</div>ive</figcaption>
+      </figure>
+      <img href="#carouselExampleControls">
+      <span class="carousel-control-next-icon arrow"></span>
+
+      <div class="smallEnjoyContainer">
+        <div class="enjoyBig">ENJOY</div>
+        <div class="enjoySmall">A NEW WORLD!</div>
+      </div>
+    </div>
+
+    <!-- Pfl Package -->
+    <div class="pflContainer">
+      <div class="pflTitle"><div class="weightLetter">P</div>FL package</div>
+      <div class="hr"></div>
+      <br>
+      <div class="pflContent">
+        <p>Out pack fly live package includes lpsum dolor sit amet, consectetur adipiscing elit. Vivamus ex ante, tristique sed elit id, scelerisque scelerisque risus. Nulla malesuada suscipit vehicula. Vestibulum mauris purus, malesuada eget laoreet et, mattis eu purus. Sed arcu enim, rhoncus non porta eu, finibus sed erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet vitae nisi vel ornare. Cras velit neque, tincidunt et purus eu, semper dignissim risus. Quisque gravida interdum ipsum ac dignissim. Aenean fringilla libero leo, vitae varius magna convallis vel. Morbi luctus ligula erat, vitae pulvinar nunc pretium nec. Integer id facilisis nibh. In porta at tellus eget consectetur. Vestibulum nisl nunc, euismod a aliquet sit amet, fermentum in massa.</p> 
+        <p>Nunc quis eros facilisis, sagittis ex vitae, mattis sapien. Duis feugiat dictum vehicula. Nullam vestibulum tellus nisi, eu euismod velit finibus et. Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet.</p>
+        <p>Aliquam id risus non sem pulvinar pulvinar in quis tellus. Pellentesque eget ipsum dignissim, molestie est vitae, tincidunt elit. Pellentesque suscipit, magna ac molestie luctus, magna massa placerat purus, in dictum urna dui vel massa. Curabitur eget est felis. Morbi eleifend libero a turpis sollicitudin aliquet. 
+        </p>
+      </div>
+      <button class="checkoutBtn">Checkout</button>
+    </div>
+  </div>
+  <div class="mainContent"></div>
+  <div class="headerAndFooter footerSize"></div>
+  <div class="headerAndFooter footerSize">
+    <div class="container">
+      <p class="footerP">Copyright Cozma Laurentiu 2022. All rights reserved.</p>
+      <p class="footerP">All data and company references are purely fictitious and shouldn’t be confused with real world entities or names.</p>
+    </div>
+  </div>
+  <div class="headerAndFooter footerSize"></div>
+</div>
+<footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="assets/js/jQuery-v3.2.1.js"></script>
+<script src="assets/js/Popper-v1.12.9.js"></script> 
+<script src="assets/js/bootstrap-v4.0.0.js"></script>
+</footer>
 </body> 
 </html>
